@@ -1,16 +1,16 @@
 # Cryptocurrency Exchange Perimeter Security & Zero Trust Architecture Redesign
 
-A cybersecurity consulting case study documenting the perimeter vulnerability assessment and Zero Trust network redesign for XYZ Exchange following a critical breach scenario.
+A security engineering case study documenting the perimeter vulnerability assessment and Zero Trust network redesign for XYZ Exchange, a simulated cryptocurrency trading platform scenario.
 
 ---
 
-## Executive Overview
+## Scenario Overview
 
-Following a high-severity security breach resulting in the unauthorized exfiltration of 500+ Bitcoins from XYZ Exchange (a major cryptocurrency trading platform), our security consulting engagement was tasked with conducting a thorough architectural risk assessment of the exchange's network perimeter and formulating an enterprise-grade remediation architecture.
+This project models a post-breach security redesign for XYZ Exchange, a fictional cryptocurrency platform where a flat network topology allowed attackers to pivot from an exposed web service to internal transaction databases.
 
-This repository contains the complete two-phase technical deliverables:
-1. **Perimeter Vulnerability Assessment:** Identifying architectural design flaws that facilitated lateral movement and external exposure.
-2. **Zero Trust Network Redesign:** Engineering a segmented, defense-in-depth architecture incorporating Demilitarized Zones (DMZs), stateful firewalls, encrypted VPN access for internal storage, and centralized SIEM log telemetry ingestion.
+The repository contains a two-phase architecture deliverable:
+1. **Perimeter Vulnerability Assessment:** Technical analysis of architectural design flaws that permitted lateral movement.
+2. **Zero Trust Network Redesign:** A multi-tier network specification incorporating Demilitarized Zones (DMZs), stateful firewalls, IPSec VPN access for database storage, and centralized ELK SIEM telemetry ingestion.
 
 ---
 
