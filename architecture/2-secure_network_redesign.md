@@ -54,7 +54,7 @@ Only explicitly approved ports and protocols are permitted, following the princi
 
 ## 📊 Updated Network Architecture Diagram
 
-![Updated Network Architecture](../images/new-network-diagram.png)  
+![Updated Network Architecture](./new-network-diagram.png)  
 *The diagram illustrates segmentation, firewall placement, and secure VPN access.*
 
 ---
